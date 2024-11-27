@@ -60,6 +60,7 @@ body.dark-mode {
     background-color: var(--primary-dark);
     padding: 2rem 0;
     margin-bottom: 2rem;
+    width: 105vw;
 }
 
 .newspaper-title {
