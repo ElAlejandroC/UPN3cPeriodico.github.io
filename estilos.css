@@ -287,3 +287,77 @@ footer {
     color: #666;
     margin-top: 0.25rem;
     line-height: 1.4;}
+    /* Ajustes para dispositivos móviles */
+@media (max-width: 768px) {
+    .newspaper-grid {
+        grid-template-columns: 1fr; /* Cambiar a una sola columna */
+        gap: 1rem;
+        padding: 0 0.5rem; /* Reducir padding */
+    }
+
+    .article-full,
+    .article-main,
+    .article-half,
+    .article-sidebar {
+        grid-column: span 1; /* Asegurar que todos ocupen el ancho completo */
+    }
+
+    .newspaper-header {
+        padding: 1rem 0; /* Reducir padding del encabezado */
+    }
+
+    .img-container-banner {
+        width: 100%; /* Ancho completo */
+        height: 20rem; /* Reducir altura */
+        margin-top: 0; /* Eliminar margen top */
+    }
+
+    .content-block {
+        padding: 1rem; /* Reducir padding de bloques de contenido */
+    }
+
+    .dark-mode-toggle {
+        top: 10px;
+        right: 10px;
+        width: 35px;
+        height: 35px;
+    }
+
+    .newspaper-title {
+        font-size: 2rem; /* Reducir tamaño de título */
+    }
+
+    .article-title {
+        font-size: 1.5rem; /* Reducir tamaño de títulos de artículos */
+    }
+}
+.content-block .img-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-block .img-art-3 {
+    width: 10rem;
+    height: 15rem; /* Deja un pequeño espacio entre las imágenes */
+    object-fit: cover;
+}
+
+.content-block .img-art-3 img {
+    width: 10rem;
+    height: 15rem;
+    object-fit: cover;
+}
+.img-wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 1rem;
+}
+.bibliografia-2{
+
+    font-size: 0.75rem;
+    color: #666;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 0.25rem;
+    border-radius: 3px;
+}
