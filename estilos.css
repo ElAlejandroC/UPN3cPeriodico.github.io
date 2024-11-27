@@ -248,7 +248,6 @@ footer {
     margin-top: -2rem;
     width: 65vw;
     height: 30rem;
-    background-color: #FF6B6B;
     position: relative;
     overflow: hidden; /* Asegura que la imagen no se salga del contenedor */
     border-radius: 8px; /* Para un look más suave */
