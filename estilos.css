@@ -433,7 +433,7 @@ footer {
     font-size: 0.75rem;
     color: #666;
     line-height: 1.4;
-    text-align: center;
+    text-align: left;
     margin-top: 0.5rem; /* Espacio entre la imagen y la bibliografía */
     width: 100%; /* Asegura que la bibliografía tome el ancho del contenedor */
 }
