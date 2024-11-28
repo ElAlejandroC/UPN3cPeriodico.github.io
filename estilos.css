@@ -307,13 +307,6 @@ footer {
     .newspaper-header {
         padding: 1rem 0; /* Reducir padding del encabezado */
     }
-
-    .img-container-banner {
-        width: 100%; /* Ancho completo */
-        height: 20rem; /* Reducir altura */
-        margin-top: 0; /* Eliminar margen top */
-    }
-
     .content-block {
         padding: 1rem; /* Reducir padding de bloques de contenido */
     }
