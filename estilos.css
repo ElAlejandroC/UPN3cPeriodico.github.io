@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Poppins:wght@300;400;500;600;700&display=swap');
 :root {
-    --primary-color: #005CAB;
+    --primary-color: #003664;
     --primary-dark: #003664;
     --secondary-color: #4A90E2;
     --accent-color: #FF6B6B;
@@ -448,5 +448,14 @@ footer {
 .bibliografia-3{
     font-size: 0.75rem;
     color: #f8f9fa;
+}
+@media (max-width: 768px) {
+    .newspaper-header {
+        padding: 1rem 0;
+        width: 100vh;
+    }
+    footer{
+        width: 100vh;
+    }
 }
 
