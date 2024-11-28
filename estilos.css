@@ -38,7 +38,10 @@ body.dark-mode {
 .dark-mode .bibliografia, .dark-mode .bibliografia-2{
     color: #d7d7d7;
 }
-
+p{
+    color:#000
+    
+}
 .dark-mode-toggle {
     position: fixed;
     top: 20px;
